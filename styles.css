@@ -1,0 +1,152 @@
+/* ====== General Page Setup ====== */
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  background-color: #f2f6fa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Center all content within a fixed-width wrapper */
+#wrapper {
+  width: 80%;
+  max-width: 1100px;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* ====== Header ====== */
+header {
+  background-color: #004c97;
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+#tagline {
+  font-style: italic;
+  color: #cde3ff;
+}
+
+/* ====== Navigation ====== */
+nav {
+  width: 25%;
+  float: right;
+  background-color: #e8f0fe;
+  padding: 20px;
+  box-sizing: border-box;
+  border-left: 3px solid #004c97;
+  margin: 15px 15px;
+}
+
+nav p {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  margin-bottom: 12px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #004c97;
+  background-color: #dce6f9;
+   padding: 4px 4px 4px 4px;
+  border-radius: 3px;
+  transition: 0.3s;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+/* Hover and visited link effects */
+nav a:hover {
+  background-color: #004c97;
+  color: #fff;
+}
+
+nav a:visited {
+  color: #6b00a8;
+}
+
+/* ====== Main Content ====== */
+main {
+width: 70%;
+  float: left;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+main h2 {
+  color: #004c97;
+  border-bottom: 2px solid #004c97;
+  padding-bottom: 5px;
+  margin-top: 0;
+}
+
+section, article {
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+
+/* ====== Aside (References) ====== */
+aside {
+  clear: both;
+  background-color: #f0f4f8;
+  border-top: 2px solid #004c97;
+  padding: 15px 25px;
+  color: #000000;
+}
+aside a{
+    color: #333;
+}
+
+aside a:hover{
+  color: #004c97;
+}
+
+aside ul {
+  list-style-type: square;
+}
+
+/* ====== Footer ====== */
+footer {
+  background-color: #004c97;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-style: italic;
+  font-size: 0.9em;
+}
+
+
+/* ====== Image Styling ====== */
+img {
+  display: block;
+  margin: 15px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.img-caption {
+  text-align: center;
+  font-size: 0.9em;
+  color: #555;
+  font-style: italic;
+  margin-top: -5px;
+  margin-bottom: 20px;
+}
